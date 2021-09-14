@@ -47,10 +47,18 @@ function checkSecond(sec) {
   var monthName = monthNames[date.getMonth()];
   var today = `${monthName} ${date.getDate()}, ${date.getFullYear()}`;
 
-  var hour = date.getHours();
-  var min = date.getMinutes();
-
-  var time = hour + ":" + min;
+function addZero(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+  var d = new Date();
+  var x = document.getElementById("demo");
+  var h = addZero(d.getHours());
+  var m = addZero(d.getMinutes());
+  var s = addZero(d.getSeconds());
+  var time = h + ":" + m + ":" + s;
   myDiv.innerHTML = `Redeemed <br> ${today} ${time}`;
 }
 setInterval(showDateTime, 1000);
