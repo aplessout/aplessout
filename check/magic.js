@@ -3,20 +3,6 @@ function clipp(){
     //console.log(pest);
     navigator.clipboard.readText().then(
         clipText => document.getElementById("inputText").innerHTML = clipText);
-        var textInput = document.getElementById("inputText").value;
-        var array = textInput.split(/\r?\n/);
-       
-        if (array[3][1] == 1) {
-               US1();
-       }   else if (array[3][1] !== 1 && array[3][1] !== "m") {
-               MX();
-       }	else if (array[3][1] == "m") {
-               if (array[4][1] == 1){
-                   US2();
-               } else if (array[4][1] !== 1){
-                   MX2();
-               }
-       }
 }
 
 
