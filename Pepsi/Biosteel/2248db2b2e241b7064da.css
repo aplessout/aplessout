@@ -1,7 +1,0 @@
-@charset "utf-8";
-
-@font-face { font-family: "Gotham Light"; src: url("/_next/static/media/gotham-light-webfont.1dcee3d98383f386017b44e0ee59535e.woff2") format("woff2"), url("/_next/static/media/gotham-light-webfont.7c166dfa773aaf62fd3a24ccc42c703e.woff") format("woff"); font-weight: 400; font-style: normal; }
-
-@font-face { font-family: "Gotham Medium"; src: url("/_next/static/media/gotham-black-webfont.3ec43f2bf2c0e19708e3f04ecd5fdfa6.woff2") format("woff2"), url("/_next/static/media/gotham-black-webfont.4fd6061d249425ff9d30fc8b196e988b.woff") format("woff"); font-weight: 400; font-style: normal; }
-
-@font-face { font-family: "Gotham Black"; src: url("/_next/static/media/gotham-black-webfont.3ec43f2bf2c0e19708e3f04ecd5fdfa6.woff2") format("woff2"), url("/_next/static/media/gotham-black-webfont.4fd6061d249425ff9d30fc8b196e988b.woff") format("woff"); font-weight: 400; font-style: normal; }
